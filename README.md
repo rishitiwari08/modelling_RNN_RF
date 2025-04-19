@@ -1,19 +1,24 @@
-# Modelling RNN and Random Forest for Time Series Prediction
+# Modelling RNN and Random Forest for Predictive Measurements
 
 ## 📌 Overview
 
-This project was conducted as a **case study during the 3rd semester of my Master’s program**, in collaboration with **MAN Energy Systems**. The aim was to evaluate and compare the effectiveness of **Recurrent Neural Networks (RNN)** and **Random Forest (RF)** in forecasting time series data derived from real-world operational datasets.
+This project was conducted as a **case study during the 3rd semester** of my **Master’s program**, in collaboration with **MAN Energy Solutions**. The primary focus was to **replace computationally expensive simulations** used in turbocharger vibration analysis with more scalable and efficient machine learning models — specifically, **Recurrent Neural Networks (RNN)** and **Random Forest (RF)**.
 
-> ⚠️ **Note**: The dataset used in this project is **confidential** and is therefore **not uploaded to this repository**.
+Turbochargers experience internal vibrations during high-speed operations, which are traditionally monitored using physical strain gauges. However, due to spatial limitations and the high cost of simulations, there is a need for a predictive surrogate model. This project leverages deep learning and ensemble methods to predict **nominal vibration amplitudes** using measurable operational parameters, reducing reliance on physical instrumentation and simulations.
+
+> ⚠️ **Note**: The dataset used in this project is **confidential** and has **not been uploaded** to this repository.
 
 ---
 
 ## 🧠 Project Objectives
 
-- Implement and train an RNN model for time series forecasting.
-- Implement and train a Random Forest model for the same task.
-- Evaluate and compare the performance of both models using appropriate metrics.
-- Analyze the strengths and limitations of each approach in the context of the specific dataset.
+- Develop an **RNN-based predictive model** to estimate nominal vibration amplitudes in turbochargers.
+- Implement a **Random Forest model** as a complementary approach, particularly effective in higher frequency ranges.
+- Perform **Exploratory Data Analysis (EDA)** and **feature engineering** to extract influential input parameters.
+- Evaluate and compare the performance of both models using metrics like **Mean Squared Error (MSE)**.
+- Propose a **hybrid modeling strategy** using RNN for lower-frequency predictions and RF for higher-frequency ranges to improve accuracy.
+- Demonstrate how AI can serve as a **surrogate for simulation**, enabling faster and more efficient vibration monitoring.
+
 
 ---
 
